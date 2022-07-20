@@ -58,3 +58,56 @@ body{
     width: 100%;
     height: 100%;
 }
+
+/*---------------
+    2nd Section
+  ---------------*/
+
+.secondSection{
+    margin: 50px 150px 50px 150px;
+    display: flex;
+}
+
+.sideBar{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 15px;
+    height: 312px;
+    width: 312px;
+    justify-content: space-evenly;
+    padding: 5px 30px 5px 30px;
+}
+
+.sideBar a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 25px 20px 25px;
+    background-color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    font-weight: 700;
+}
+
+#active{
+    background-color: red;
+    color: white;
+}
+
+.blogs{
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+article{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+article>img{
+    border: 1px solid black;
+}
