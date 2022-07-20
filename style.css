@@ -66,6 +66,7 @@ body{
 .secondSection{
     margin: 50px 150px 50px 150px;
     display: flex;
+    justify-content: space-between;
 }
 
 .sideBar{
@@ -96,18 +97,51 @@ body{
 }
 
 .blogs{
-    margin-left: 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
 }
 
 article{
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
+    width: 370px;
+    border: 1px solid rgba(128, 128, 128, 0.233);
+    border-radius: 10px;
 }
 
-article>img{
-    border: 1px solid black;
+article button{
+    margin: 15px 0 10px 10px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+article p{
+    padding: 5px 10px 5px 10px;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.articaleBanner{
+    height: 175px;
+    width: 370px;
+}
+
+.flexStyle{
+    display: flex;
+}
+
+.iconsSection{
+    padding: 20px 10px;
+    color: black;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.icons{
+    padding-right: 10px;
 }
