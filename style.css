@@ -43,6 +43,7 @@ body{
     font-size: 1.5rem;
     border-radius: 10px;
     font-weight: 700;
+    border: none;
 }
 
 .fa-greater-than{
@@ -183,6 +184,26 @@ article p{
     margin: 15px 0 55px 0;
 }
 
+/* --------------------
+    View All Button 
+---------------------*/
+
+.viewAll{
+    text-align: center;
+    display: none;
+    margin: 0 0 50px 0;
+}
+
+.viewAll Button{
+    color: white;
+    background-color: red;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 10px 25px 10px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
 /* ---------------
    Footer Section 
 ------------------*/
@@ -214,4 +235,162 @@ hr{
     border: none;
     height: 1px;
     background-color: gray
+}
+
+/* ----------------
+    Media Queries 
+-------------------*/
+
+/* ------------------
+    Mobile Devices 
+---------------------*/
+
+/* ------------------
+    Tablets Devices
+---------------------*/
+
+@media only screen and (min-width: 689px) and (max-width: 992px){
+
+    /*----------
+       Banner
+    ----------*/
+    .container{
+        margin: 30px;
+        display: flex;
+        border-radius: 40px;
+        height: 450px;
+    }
+
+    .titleSection{
+        width: 50%;
+        padding: 50px 20px 50px 80px;
+        align-items: center;
+    }
+
+    .titleSection h1{
+        font-size: 2.8rem;
+        font-weight: 700;
+        color: white;
+    }
+
+    .titleSection p{
+        font-size: 1rem;
+        font-weight: 300;
+        color: white;
+        margin: 20px 0 20px 0;
+        height: 79px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .titleSection button{
+        background-color: red;
+        padding: 20px 30px 20px 30px;
+        color: white;
+        font-size: 1.2rem;
+        border-radius: 10px;
+        font-weight: 700;
+    }
+
+    .fa-greater-than{
+        margin-left: 15px;
+    }
+
+    .imgSection{
+        padding: 40px 10px 0 0;
+        width: 50%;
+    }
+
+    .imgSection img{
+        width: 100%;
+        height: 100%;
+    }
+
+    /*---------------
+       2nd Section
+    ---------------*/
+
+    .secondSection{
+        margin: 0;
+        display: block;
+    }
+
+    /* -------------
+        Side Bar 
+    ------------- */
+
+    .sideBar{
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        border-radius: 0;
+        height: 50px;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 0 40px 0;
+    }
+
+    .sideBar a{
+        text-decoration: none;
+        color: black;
+        padding: 20px 10px 20px 10px;
+        width: 200px;
+        background-color: white;
+        text-align: center;
+        font-size: 1.3rem;
+        border-radius: 15px;
+        font-weight: 700;
+        border: 1px solid rgba(128, 128, 128, 0.233);
+    }
+
+    /* -----------------
+        Blog Section 
+    ------------------*/
+
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 25px;
+        margin: 0 25px 50px 25px;
+    }
+
+    /* --------------------
+        View All Button 
+    ---------------------*/
+
+    .viewAll{
+        display: block;
+    }
+
+    /* ------------------
+        Footer Section 
+    --------------------*/
+
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 80px 0 150px 0;
+    }
+
+    .fotterContent{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 20px 0 20px;
+    }
+
+    .fotterContent h4{
+        color: gray;
+        font-size: 1.2rem;
+        padding: 20px;
+    }
+
+    hr{
+        margin: 50px 50px 50px 50px;
+        border: none;
+        height: 1px;
+        background-color: gray
+    }
 }
