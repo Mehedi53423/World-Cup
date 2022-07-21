@@ -245,6 +245,170 @@ hr{
     Mobile Devices 
 ---------------------*/
 
+@media only screen and (max-width: 688px) {
+    /*----------
+       Banner
+    ----------*/
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin: 40px;
+        background-color: black;
+        border-radius: 20px;
+        height: 930px;
+        width: 600px;
+        justify-items: center;
+        align-content: center;
+    }
+
+    .titleSection{
+        width: 100%;
+        padding: 50px 0 0 0;
+        align-items: center;
+    }
+
+    .titleSection h1{
+        font-size: 2.7rem;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+        padding: 0 100px 0 100px;
+    }
+
+    .titleSection p{
+        font-size: 1.6rem;
+        font-weight: 300;
+        color: gray;
+        margin: 20px 0 30px 0;
+        padding: 10px 60px 10px 60px;
+        height: 78px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .titleSection button{
+        background-color: red;
+        padding: 20px 30px 20px 30px;
+        color: white;
+        font-size: 2.2rem;
+        border-radius: 8px;
+        font-weight: 700;
+    }
+
+    .watchLiveBtn{
+        text-align: center;
+    }
+
+    .fa-greater-than{
+        margin-left: 15px;
+    }
+
+    .imgSection{
+        padding: 40px 0 0 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .imgSection img{
+        width: 450px;
+        height: 500px;
+    }
+
+    /*---------------
+       2nd Section
+    ---------------*/
+
+    .secondSection{
+        margin: 0;
+        display: block;
+        border: 1px solid red;
+    }
+
+    /* -------------
+        Side Bar 
+    ------------- */
+
+    .sideBar{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 0;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        padding: 20px 0 40px 0;
+    }
+
+    .sideBar a{
+        text-decoration: none;
+        color: black;
+        margin: 10px 0 10px 0;
+        padding: 20px 10px 20px 10px;
+        width: 80%;
+        background-color: white;
+        text-align: center;
+        font-size: 2rem;
+        border-radius: 15px;
+        font-weight: 700;
+        border: 1px solid rgba(128, 128, 128, 0.233);
+    }
+
+    /* -----------------
+        Blog Section 
+    ------------------*/
+
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 25px;
+        margin: 0 25px 50px 25px;
+        justify-items: center;
+    }
+
+    /* --------------------
+        View All Button 
+    ---------------------*/
+
+    .viewAll{
+        display: none;
+    }
+
+    /* ------------------
+        Footer Section 
+    --------------------*/
+
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 80px 0 150px 0;
+    }
+
+    footer h1{
+        font-size: 2.4rem;
+    }
+
+    .fotterContent{
+        display: block;
+        justify-content: center;
+        margin: 0 20px 0 20px;
+    }
+
+    .fotterContent h4{
+        color: gray;
+        font-size: 1.4rem;
+        padding: 20px;
+    }
+
+    hr{
+        margin: 50px 50px 50px 50px;
+        border: none;
+        height: 1px;
+        background-color: gray
+    }
+}
+
 /* ------------------
     Tablets Devices
 ---------------------*/
