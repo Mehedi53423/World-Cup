@@ -252,11 +252,11 @@ hr{
     .container{
         display: flex;
         flex-direction: column;
-        margin: 40px;
+        margin: 20px;
         background-color: black;
         border-radius: 20px;
-        height: 930px;
-        width: 600px;
+        height: auto;
+        width: 90%;
         justify-items: center;
         align-content: center;
     }
@@ -291,7 +291,7 @@ hr{
         background-color: red;
         padding: 20px 30px 20px 30px;
         color: white;
-        font-size: 2.2rem;
+        font-size: 2rem;
         border-radius: 8px;
         font-weight: 700;
     }
@@ -305,14 +305,16 @@ hr{
     }
 
     .imgSection{
-        padding: 40px 0 0 0;
-        width: 100%;
+        padding: 20px 0 0 0;
+        width: 90%;
         text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .imgSection img{
-        width: 450px;
-        height: 500px;
+        width: 100%;
+        height: auto;
     }
 
     /*---------------
@@ -361,7 +363,7 @@ hr{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 25px;
-        margin: 0 25px 50px 25px;
+        margin: 0 auto 50px auto;
         justify-items: center;
     }
 
@@ -382,6 +384,7 @@ hr{
         color: white;
         text-align: center;
         padding: 80px 0 150px 0;
+        width: 100%;
     }
 
     footer h1{
