@@ -69,6 +69,10 @@ body{
     justify-content: space-between;
 }
 
+/* -------------
+    Side Bar 
+------------- */
+
 .sideBar{
     display: flex;
     flex-direction: column;
@@ -95,6 +99,10 @@ body{
     background-color: red;
     color: white;
 }
+
+/* -----------------
+    Blog Section 
+------------------*/
 
 .blogs{
     display: grid;
@@ -139,12 +147,45 @@ article p{
     padding: 20px 10px;
     color: black;
     font-weight: 600;
-    font-size: 1.1em;
+    font-size: 1.1rem;
 }
 
 .icons{
     padding-right: 10px;
 }
+
+.flagSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 10px 25px 10px;
+}
+
+.flagSection h3{
+    font-weight: 700;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.flagStyle{
+    height: 70px;
+    width: 110px;
+}
+
+.matchTitle{
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.matchDetails{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 100;
+    margin: 15px 0 55px 0;
+}
+
+/* ---------------
+   Footer Section 
+------------------*/
 
 footer{
     background-color: black;
