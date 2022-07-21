@@ -64,7 +64,7 @@ body{
   ---------------*/
 
 .secondSection{
-    margin: 50px 150px 50px 150px;
+    margin: 50px 150px 150px 150px;
     display: flex;
     justify-content: space-between;
 }
@@ -144,4 +144,33 @@ article p{
 
 .icons{
     padding-right: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 180px 0 150px 0;
+}
+
+footer h1{
+    font-size: 3rem;
+}
+
+.fotterContent{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 400px 0 400px;
+}
+
+.fotterContent h4{
+    color: gray;
+    font-size: 1.2rem;
+}
+
+hr{
+    margin: 50px 200px 50px 200px;
+    border: none;
+    height: 1px;
+    background-color: gray
 }
