@@ -4,6 +4,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: rgba(255, 255, 255, 0.692);
 }
 
 /*----------
@@ -44,6 +45,7 @@ body{
     border-radius: 10px;
     font-weight: 700;
     border: none;
+    cursor: pointer;
 }
 
 .fa-greater-than{
@@ -58,6 +60,23 @@ body{
 .imgSection img{
     width: 100%;
     height: 100%;
+}
+
+/*-------------
+   Animation
+---------------*/
+
+.rotate {
+  animation: rotation 2s 3 linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 /*---------------
@@ -127,6 +146,7 @@ article button{
     color: black;
     font-size: 1.2rem;
     font-weight: 700;
+    cursor: pointer;
 }
 
 article p{
@@ -228,6 +248,17 @@ footer h1{
 .fotterContent h4{
     color: gray;
     font-size: 1.2rem;
+}
+
+.socialLinks{
+    margin: 50px auto auto auto;
+}
+
+.socialLinks a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    padding: 30px;
 }
 
 hr{
